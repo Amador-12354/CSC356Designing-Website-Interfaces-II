@@ -1,0 +1,131 @@
+header {
+  background-image: url(./assets/starrySpace.jpg);
+  background-size: cover;
+  text-align: center;
+  color: black;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+}
+a:hover {
+  color: orangered;
+}
+body {
+  background-image: url(./assets/marsLandscape.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  background-color: black;
+}
+main {
+  flex: 1;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 20px 50px;
+}
+h1, h3,
+h2 {
+  text-align: center;
+  color: white;
+}
+.home {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.homeBullet {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+p {
+  color: white;
+}
+form {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+}
+div {
+  margin-top: 8px;
+}
+
+textarea {
+  display: block;
+  width: 450px;
+}
+button {
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.applyButton {
+  background-color: red;
+  padding: 6px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+.countdownLink{
+  color: white;
+}
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+footer {
+  padding: 5px;
+  font-style: italic;
+  text-align: center;
+}
+.divMessage {
+  color: red;
+}
+.countdownPage{
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.countdownPageTime{
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #FFEA00;
+}
+.countdownPageTime span{
+  background-color: black;
+}
+@media (max-width: 600px) {
+  header {
+    padding: 1rem;
+    text-align: center;
+  }
+  form {
+    width: 100%;
+  }
+  textarea {
+    width: 380px;
+  }
+}
